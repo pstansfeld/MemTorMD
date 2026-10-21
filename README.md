@@ -9,3 +9,5 @@ If you dont need to insert proteins and only want to study pores or other 3D arc
 For more control and for work specifically on toroid lipids use ToroidMaker-basic MemTorMD is heavily dependent on TS2CG a system which allows for pointilism of 3D structures and insertion of lipids along these structures. It adds to this base code, by overlaying a pipeline made of new scripts that can count molecules created in TS2CG, boxing and morphing of custom 3D shapes in this case a pore, aswell as providing a protein insertion method by which simulations can be directly run. Using this method, reproducible pores of different sizes and multilayer lipid systems can be simulated with your protein(s) of interest or investigated for other properties. You may also view your output pore in browser. Inspired by MemProtMD
 
 Use the MemTorMD .pynb attached - an active link is available here: https://colab.research.google.com/drive/1gkD6BOgN_fv5kZ4aQ_q4QbN7JYyT3vlK?usp=sharing
+
+For analysis of trajectories of Coarse grained proteins please use TrajMAP https://github.com/MishterBluesky/TrajMAP-CG 
